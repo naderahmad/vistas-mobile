@@ -1,54 +1,118 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Arimo:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./main.css">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Fuentes de Google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Arimo:wght@400;700&display=swap" rel="stylesheet" />
+    <!-- Hoja de Estilos -->
+    <link rel="stylesheet" href="./main.css" />
     <title>Tele Latino</title>
 </head>
+
 <body>
     <main class="main">
         <div class="logo">
-            <img src="./images/logo.png" alt="logo">
+            <!-- Si necesitas cambiar el logo, modifica la linea de abajo -->
+            <img src="./images/logo.png" alt="logo" />
         </div>
+        <!-- Aqui empieza el contenedor de los botones -->
         <div class="buttons">
-            <a href="#" class="btn red"><img class="icon" src="./images/icon-play.png" alt="play"> Eventos Deportivos</a>
-              <label class="dropdown">
-                <div class="btn"><img class="icon" src="./images/arrowDown.png" alt="flecha">Canales por Países</div>
-                <input type="checkbox" class="dd-input" id="test">
+            <!-- Boton de Eventos Deportivos, si quieres cambiar el color, debes modificar la clase .red en el archivo css -->
+            <a href="#" class="btn red">
+                <!-- Para cambiar el texto del botón o el icono, modifica la linea de abajo -->
+                <img class="icon" src="./images/icon-play.png" alt="play" /> Eventos
+                Deportivos
+            </a>
+            <!-- Boton tipo dropdown -->
+            <label class="dropdown">
+                <div class="btn">
+                    <!-- Si necesitas cambiar el icono o texto, modifica la linea de abajo -->
+                    <img class="icon" src="./images/arrowDown.png" alt="flecha" />Canales por Países
+                </div>
+                <input type="checkbox" class="dd-input" id="test" />
                 <ul class="dd-menu">
-                    <li><a href="#">Argentina</a></li>
-                  <li><a href="#">Bolivia</a></li>
-                  <li><a href="#">Brasil</a></li>
-                  <li><a href="#">Chile</a></li>
-                  <li><a href="#">Colombia</a></li>
-                  <li><a href="#">Ecuador</a></li>
-                  <li><a href="#">México</a></li>
-                  <li><a href="#">Perú</a></li>
+                    <li>
+                        <!-- Si necesitas cambiar el icono, texto o vinculo, modifica la linea de abajo -->
+                        <a href="#"><img class="icon" src="./images/argentina.png" alt="Bandera" />Argentina</a>
+                    </li>
+                    <li>
+                        <!-- Si necesitas cambiar el icono, texto o vinculo, modifica la linea de abajo -->
+                        <a href="#"><img class="icon" src="./images/bolivia.png" alt="Bandera" />Bolivia</a>
+                    </li>
+                    <li>
+                        <!-- Si necesitas cambiar el icono, texto o vinculo, modifica la linea de abajo -->
+                        <a href="#"><img class="icon" src="./images/brasil.png" alt="Bandera" />Brasil</a>
+                    </li>
+                    <li>
+                        <!-- Si necesitas cambiar el icono, texto o vinculo, modifica la linea de abajo -->
+                        <a href="#"><img class="icon" src="./images/chile.png" alt="Bandera" />Chile</a>
+                    </li>
+                    <li>
+                        <!-- Si necesitas cambiar el icono, texto o vinculo, modifica la linea de abajo -->
+                        <a href="#"><img class="icon" src="./images/colombia.png" alt="Bandera" />Colombia</a>
+                    </li>
+                    <li>
+                        <!-- Si necesitas cambiar el icono, texto o vinculo, modifica la linea de abajo -->
+                        <a href="#"><img class="icon" src="./images/ecuador.png" alt="Bandera" />Ecuador</a>
+                    </li>
+                    <li>
+                        <!-- Si necesitas cambiar el icono, texto o vinculo, modifica la linea de abajo -->
+                        <a href="#"><img class="icon" src="./images/mexico.png" alt="Bandera" />México</a>
+                    </li>
+                    <li>
+                        <!-- Si necesitas cambiar el icono, texto o vinculo, modifica la linea de abajo -->
+                        <a href="#"><img class="icon" src="./images/peru.png" alt="Bandera" />Perú</a>
+                    </li>
                 </ul>
-              </label>
-              <label class="dropdown">
-                <div class="btn"><img class="icon" src="./images/arrowDown.png" alt="flecha">Canales por Categorias</div>
-                <input type="checkbox" class="dd-input" id="test">
+            </label>
+            <!-- Boton tipo dropdown de Categorias -->
+            <label class="dropdown">
+                <div class="btn">
+                    <img class="icon" src="./images/arrowDown.png" alt="flecha" />Canales por Categorias
+                </div>
+                <input type="checkbox" class="dd-input" id="test" />
                 <ul class="dd-menu">
-                    <li><a href="#">Todos</a></li>
-                  <li><a href="#">Deportes</a></li>
-                  <li><a href="#">Música</a></li>
-                  <li><a href="#">Infantiles</a></li>
-                  <li><a href="#">Cultura</a></li>
-                  <li><a href="#">Noticias</a></li>
+                    <li>
+                        <!-- Si necesitas cambiar el icono, texto o vinculo, modifica la linea de abajo -->
+                        <a href="#"><img class="icon" src="./images/all.png" alt="Icono" />Todos</a>
+                    </li>
+                    <li>
+                        <!-- Si necesitas cambiar el icono, texto o vinculo, modifica la linea de abajo -->
+                        <a href="#"><img class="icon" src="./images/deporte.png" alt="Icono" />Deportes</a>
+                    </li>
+                    <li>
+                        <!-- Si necesitas cambiar el icono, texto o vinculo, modifica la linea de abajo -->
+                        <a href="#"><img class="icon" src="./images/musica.png" alt="Icono" />Música</a>
+                    </li>
+                    <li>
+                        <!-- Si necesitas cambiar el icono, texto o vinculo, modifica la linea de abajo -->
+                        <a href="#"><img class="icon" src="./images/infantil.png" alt="Icono" />Infantiles</a>
+                    </li>
+                    <li>
+                        <!-- Si necesitas cambiar el icono, texto o vinculo, modifica la linea de abajo -->
+                        <a href="#"><img class="icon" src="./images/cultura.png" alt="Icono" />Cultura</a>
+                    </li>
+                    <li>
+                        <!-- Si necesitas cambiar el icono, texto o vinculo, modifica la linea de abajo -->
+                        <a href="#"><img class="icon" src="./images/noticias.png" alt="Icono" />Noticias</a>
+                    </li>
                 </ul>
-              </label>
+            </label>
         </div>
-
+        <!-- Boton de demo MagisTV -->
         <div class="buttons demoMagis">
-            <a href="#" class="btn demoBtn"><img class="icon" src="./images/star.png" alt="demo">Demo MagisTV</a>
+            <!-- Si necesitas cambiar el icono, texto o vinculo, modifica la linea de abajo -->
+            <a href="#" class="btn demoBtn"><img class="icon" src="./images/star.png" alt="demo" />Demo
+                MagisTV</a>
         </div>
-        <img class="gradient" src="./images/gradient.png" alt="">
+        <!-- Imagen de degradado negro, no tocar, estiliza el fondo -->
+        <img class="gradient" src="./images/gradient.png" alt="" />
     </main>
 </body>
+
 </html>
