@@ -29,7 +29,7 @@ body {
 /* Se aplican separaciones arriba y abajo del logo */
 .logo {
     text-align: center;
-    padding-top: 30%;
+    padding-top: 15%;
     padding-bottom: 10%;
 }
 
@@ -87,6 +87,7 @@ body {
 /* Estilos para el boton de demo */
 .demoBtn {
     background-color: transparent;
+    height: 40px;
     border: 1px solid #fff;
 }
 
